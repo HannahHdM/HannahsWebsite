@@ -1,0 +1,25 @@
+body{
+font-family: Courier New;
+font-size: 18px;
+line-height: 1.6;
+color: #f54331;
+background: #333333;
+max-width: 650px;
+margin: 40px auto;
+padding: 10px;
+}
+
+header, footer {text-align: center;}
+
+a{color: #f54331;}
+a:hover { color: #426e86;}
+
+hr { border-bottom: 1px solid #333333;
+border-top: 0;}
+
+.Liste {font-style: italic;
+text-align: center; }
+
+
+.red {color: red;}
+.bold{font-weight: bold;}
