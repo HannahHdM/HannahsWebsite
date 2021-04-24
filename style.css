@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-font-family: Courier New;
-font-size: 18px;
+  Font-Family: 'Playfair Display', Serif;
+  Font-Size: 30px;
 line-height: 1.6;
-color: #f54331;
-background: #333333;
+color: #C8D3D5;
+background: #7BA098;
 max-width: 650px;
 margin: 40px auto;
 padding: 10px;
@@ -11,15 +15,35 @@ padding: 10px;
 
 header, footer {text-align: center;}
 
-a{color: #f54331;}
-a:hover { color: #426e86;}
+h1, h2, h3, h4, h5 {text-align: center;}
+ h1{ color: #b5838d}
+ h2, h3, h4, h5 {color: #e5e5e5}
+
+ .nav-bar {
+   width: 100%;
+   background: #b5838d}
+
+a {color: #333333;
+border-bottom: 1px solid transparent;
+}
+a:hover { color: white;
+border-bottom: 1px solid white;}
 
 hr { border-bottom: 1px solid #333333;
-border-top: 0;}
-
-.Liste {font-style: italic;
-text-align: center; }
+border-top: 0;
+}
 
 
-.red {color: red;}
-.bold{font-weight: bold;}
+
+
+.oben {position: relative;}
+.oben img {display: block; max-height: 75vh; object-fit:cover;}
+.oben .headline-container {position: absolute; text-align: center; width: 100%;}
+.oben h2 {font-size: 1.2rem; font-weight:bold;}
+.Liste {font-style: italic; }
+@media (min-width:768px) {.oben h2 {font-size:2rem;}}
+@media (min-width: 850px) {.two-columns {display: flex;  justify-content: center;}}
+
+schöne farben: 7BA098 (morning blue)
+C8D3D5 light gray
+b08968 ocker
