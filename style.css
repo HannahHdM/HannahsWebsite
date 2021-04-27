@@ -11,11 +11,9 @@ background: #7BA098;
 max-width: 650px;
 margin: 40px auto;
 padding: 10px;
+text-align: center;
 }
 
-header, footer {text-align: center;}
-
-h1, h2, h3, h4, h5 {text-align: center;}
  h1{ color: #b5838d}
  h2, h3, h4, h5 {color: #e5e5e5}
 
