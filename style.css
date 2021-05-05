@@ -2,92 +2,145 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  Font-Family: 'Playfair Display', Serif;
-  Font-Size: 30px;
-line-height: 1.6;
-color: #black;
-background: #093A3E;
-margin: 0px auto;
-padding: 0px;
-text-align: center;
+body {
+  font-family: "Playfair Display", Serif;
+  font-size: 30px;
+  line-height: 1.6;
+  color: "D2C6AA";
+  background: #ece4db;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+h1 {
+  color: #093a3e;
+  text-shadow: 3px 3px #ffdab9;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: #black;
 }
 
-
- h1{ color: #black;}
- h2, h3, h4, h5 {color: #black;}
-
- .nav-bar {
-   width: 100%;
-   background: #b5838d;
- color: #purple;
+.nav-bar {
+  width: 100%;
+  background: #b5838d;
 }
 .Logo img {
   display: block;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 120px;
+  max-height: 120px;
   object-fit: cover;
-  border: 10px #C8D3D5;
+  margin: 10px;
 }
 
 nav {
   padding: 10px;
 }
-nav a {color: #333333;
+nav a {
+  color: #333333;
 }
-nav a:hover { color: #C8D3D5;
-border-bottom: 1px solid pink;}
+nav a:hover {
+  color: #c8d3d5;
+  border-bottom: 1px solid pink;
+}
 
-
+.nav-bar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 10;
+}
+@media (max-width: 768px) {
   .nav-bar {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items:baseline;
-    z-index:10;
+    font-size: 18px;
   }
-  .Überschrift {
-    border-bottom: 0;
-    color: teal;
+}
+@media (max-width: 768px) {
+  .Logo img {
+    max-width: 50px;
+    max-height: 50px;
   }
+}
 
-
-.headline-container {display: flex;
-justify-content: flex-end;
-margin: 100px;}
-.oben {
-  position: relative;}
 .oben img {
   display: block;
-   max-height: 100vh;
-    object-fit:cover;
-    width: 100%;
-  }
+  max-height: 100vh;
+  object-fit: cover;
+  width: 100%;
+}
 .oben .headline-container {
-  position: absolute;
-   text-align: center;
-   width: 100%;
- top:50%;
-left:50%;
- transform: translate(-50%, -50%);
+  color: #093a3e;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
 }
 .oben h1 {
-  font-size: 1.2rem;
-  font-weight:bold;
+  font-size: 40px;
+  font-weight: bold;
 }
-@media (min-width:768px) {
-  .oben h1 {font-size:2rem;}
+@media (max-width: 768px) {
+  .oben .headline-container {
+    align-items: center;
+  }
+  .oben h1 {
+    font-size: 18px;
+  }
 }
 
-.Liste {font-style: italic; text-align: center;}
-.Liste li {color: lightblue;}
+.Liste {
+  font-style: italic;
+  text-align: center;
+}
+.Liste li {
+  color: #gray;
+}
 
-footer a {color: #b5838d;}
-footer a:hover {color: lightblue;
-border: 2px solid pink;
-background: #b08968;
-transition: all 1s ease;}
+.bild-container1 {
+  margin-top: 20vh;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.bild-container1 img {
+  width: 30%;
+  max-height: 100vh;
+}
+.bild-container2 img {
+  width: 50%;
+  max-height: 90vh;
+}
+.bild-container2 {
+  margin-top: 10vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+@media (max-width: 768px) {
+  .bild-container2 {
+    max-height: 50vh;
+  }
+  .bild-container1 {
+    margin-top: 5vh;
+  }
+}
+footer a {
+  color: #b5838d;
+}
+footer a:hover {
+  color: lightblue;
+  border: 2px solid pink;
+  background: #b08968;
+  transition: all 1s ease;
+}
 
-schöne farben: 7BA098 (morning blue)
-C8D3D5 light gray
-b08968 ocker
+fragen: was bringt mir position?;
