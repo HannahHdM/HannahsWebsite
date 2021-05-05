@@ -1,2 +1,2 @@
 # HannahsWebsite
-Das erste HTML Grundgerüst.
+Ein erster Entwurf
