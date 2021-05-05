@@ -98,12 +98,19 @@ nav a:hover {
 
 .Liste {
   font-style: italic;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .Liste li {
   color: #gray;
 }
-
+.conclusion {
+  font-style: italic;
+  color: #gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bild-container1 {
   margin-top: 20vh;
   margin-bottom: 20px;
